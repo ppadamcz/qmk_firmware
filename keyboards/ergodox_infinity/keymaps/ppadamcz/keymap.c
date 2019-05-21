@@ -29,7 +29,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
  *   | ~L1  | ~L1  |   =  |  TAB | LGui |                                       |  ~L2 |  '"  |  -   | ~L1  | ~L1  |
  *   `----------------------------------'                                       `----------------------------------'
  *                                        ,-------------.       ,-------------.
- *                                        | Ctrl |RESET |       |RESET |Ctrl/Esc|
+ *                                        | LAlt |RESET |       |RESET |Ctrl/Esc|
  *                                 ,------|------|------|       |------+--------+------.
  *                                 |      |      | Home |       | PgUp |        |      |
  *                                 | Esc  |Backsp|------|       |------|  Enter |Space |
@@ -46,7 +46,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
           KC_NO,       LSFT_T(KC_Z),  KC_X,     KC_C,      KC_V,      KC_B,   KC_NO,
                        KC_FN1,        KC_FN1,   KC_EQL,    KC_TAB,    KC_LGUI,
 
-                                                               KC_LCTRL,   RESET,
+                                                               KC_LALT,    RESET,
                                                                            KC_HOME,
                                                 CTL_T(KC_ESC), KC_BSPC,    KC_END,
         // right hand
